@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARALLAX WEBSITE</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .container {
+            height: 640px;
+            width: 100%;
+
+        }
+
+        .container h1 {
+            display: inline-block;
+            font-size: 60px;
+            margin-top: 200px;
+            margin-left: 50vh;
+            background-color: grey;
+            padding: 30px;
+            color: white;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+
+        .section {
+            height: 200px;
+            margin: 0px;
+            margin-top: 150px;
+
+            text-align: center;
+            font-size: 20px;
+            background-color: rgb(221, 115, 115);
+
+            background-size: cover;
+            background-position: center;
+            margin-left: 0px;
+            color: white;
+            margin-left: 0%;
+        }
+
+        .section h3 {
+            font-size: 40px;
+            margin: 20px;
+            padding: 10px;
+
+        }
+
+        .section .container {
+            content: "";
+            background: url("image1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            position: absolute;
+            height: 600px;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+
+        .container2 {
+            display: inline-block;
+            height: 600px;
+            width: 100%;
+            margin-top: 0px;
+            position: relative;
+
+        }
+
+        .container2 h1 {
+            display: inline-block;
+            text-align: center;
+            margin-top: 280px;
+            margin-left: 30vw;
+            padding: 30px;
+            font-size: 50px;
+            color: white;
+            background-color: grey;
+        }
+
+        .section2 {
+            text-align: center;
+            height: 200px;
+            font-size: 20px;
+            margin-top: 0px;
+            background-color: rgb(20, 218, 218);
+            color: white;
+        }
+
+        .section2::before {
+            content: "";
+            background: url("image1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            position: absolute;
+            height: 600px;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+
+        .container2::before {
+            content: "";
+            background: url("image2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            position: absolute;
+            height: 600px;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+
+        .phto {
+            background: url("image3.png");
+            background-attachment: fixed;
+
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PARALLAX WEBSITE</h1>
+
+        <section class="section">
+            <h3>SECTION ONE</h3>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad facere eum numquam mollitia in excepturi,
+                eveniet, maxime tempore reiciendis quia ipsa deleniti libero tempora est provident porro voluptatibus
+                quo, nisi incidunt possimus quam totam perferendis voluptate. Rem esse iusto tempore.Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Laborum nam quae culpa, voluptates harum officiis pariatur quidem
+                magni tempora eligendi beatae quisquam dolorem ipsam mollitia repudiandae autem error inventore
+                omnis?oreum50
+            </P>
+
+        </section>
+    </div>
+
+
+    <div class="container2">
+        <h1>EXPLORE NATURE</h1>
+    </div>
+    <section class="section2">
+        <h3>SECTION TWO</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, praesentium temporibus esse totam nesciunt
+            itaque necessitatibus illo, dolore ipsum placeat atque aliquam nisi aspernatur exercitationem fuga quae
+            repudiandae expedita consequatur voluptatibus nihil repellendus blanditiis quisquam. Exercitationem illo
+            ducimus excepturi id minima neque magnam sapiente mollitia eligendi nihil quas sequi iusto sed nam molestiae
+            ipsam laboriosam, numquam provident molestias amet nulla. Nihil ad corporis, libero expedita sequi quod
+            dignissimos, nemo, tempore fuga temporibus asperiores neque! Nulla sit natus, rem animi deleniti, ex fugit,
+            rerum maxime cupiditate debitis voluptates eaque id consequuntur! Aspernatur quam exercitationem eius iure
+            expedita id nostrum pariatur sit.
+
+        </p>
+
+    </section>
+    <div class="container">
+        <div class="phto">
+            <h1>LOOK DEEP INTO THE NATURE</h1>
+
+            <section class="section">
+                <h3>SECTION THREE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, praesentium temporibus esse totam
+                    nesciunt
+                    itaque necessitatibus illo, dolore ipsum placeat atque aliquam nisi aspernatur exercitationem fuga
+                    quae
+                    repudiandae expedita consequatur voluptatibus nihil repellendus blanditiis quisquam. Exercitationem
+                    illo
+                    ducimus excepturi id minima neque magnam sapiente mollitia eligendi nihil quas sequi iusto sed nam
+                    molestiae
+                    ipsam laboriosam, numquam provident molestias amet nulla. Nihil ad corporis, libero expedita sequi
+                    quod
+                    dignissimos, nemo, tempore fuga temporibus asperiores neque! Nulla sit natus, rem animi deleniti, ex
+                    fugit,
+                    rerum maxime cupiditate debitis voluptates eaque id consequuntur! Aspernatur quam exercitationem
+                    eius
+                    iure
+                    expedita id nostrum pariatur sit.
+
+                </p>
+
+            </section>
+        </div>
+    </div>
+    <div class="container3">
+        hello
+    </div>
+
+</body>
+
+</html>
